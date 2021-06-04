@@ -37,6 +37,11 @@ const workoutSchema = new Schema({
   }]
 });
 
+// GET HELP WITH THIS
+// workoutSchema.virtual("totalDuration").aggregate([{
+//  $sum: "$duration"
+// }])
+
 const Workout = mongoose.model("Workout", workoutSchema);
 
 module.exports = Workout;
