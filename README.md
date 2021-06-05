@@ -15,7 +15,7 @@
 
  ## Introduction
 User can view and create daily workouts as well as see their stats from the past 7 days.
-* Heroku: https://shielded-tor-16993.herokuapp.com/stats
+* Heroku: https://shielded-tor-16993.herokuapp.com/
 * GitHub: https://github.com/JXIong15/17-workout-tracker
 <p align="center"><img src="./assets/stats.png" width="100% height="100%" stylealt="stats page"/></p>
 
