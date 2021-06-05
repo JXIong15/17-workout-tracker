@@ -39,6 +39,8 @@ User can view and create daily workouts as well as see their stats from the past
     * In `routes/api.js`, created routes to the database to `GET` and `UPDATE` workouts
     * Used an `aggregate` function to `$addFields` and `$sum` the duration of all exercises to get the `totalDuration` of the workout
     * In the html.js file, connected routes to show the desired html pages
+* Seeded data on MongoDB Atlas.
+* Created a MongoDB database and collection for the data. Conencted it to deploy on Heroku.
 
 
 ## Technologies Used
