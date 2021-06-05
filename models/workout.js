@@ -11,7 +11,7 @@ const workoutSchema = new Schema({
     type: {
       type: String,
       trim: true,
-      required: "Enter an workout type"
+      required: "Enter a workout type"
     },
     name: {
       type: String,
@@ -37,10 +37,6 @@ const workoutSchema = new Schema({
   }]
 });
 
-// GET HELP WITH THIS
-// workoutSchema.virtual("totalDuration").aggregate([{
-//  $sum: "$duration"
-// }])
 
 const Workout = mongoose.model("Workout", workoutSchema);
 
