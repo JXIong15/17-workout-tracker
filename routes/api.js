@@ -26,6 +26,7 @@ router.put("/api/workouts/:id", ({ body, params }, res) => {
 });
 
 router.get("/api/workouts", (req, res) => {
+  // adds the totalDuration field
   Workout.aggregate([{
     $addFields: {
       totalDuration: { $sum: '$exercises.duration' }
