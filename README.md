@@ -9,6 +9,7 @@
 * [Tasks Completed](#tasks-completed)
 * [Technologies Used](#technologies-used)
 * [Demo](#demo)
+* [Future Ideas](#future-ideas)
 * [Sources](#sources)
 * [License](#license)
 
@@ -54,6 +55,9 @@ User can view and create daily workouts as well as see their stats from the past
 * App Demo:
 <p align="center"><img src="./assets/demo.gif" width="100% height="100%" stylealt="app demo"/></p>
    
+## Future Ideas
+* Get MongoDB to run seed.js file to auto-seed database. I had to type this out manually as a JSON array in Mongo Atlas.
+
 
 ## Sources
 * NPM Packages: https://www.npmjs.com/
